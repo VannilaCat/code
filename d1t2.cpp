@@ -7,5 +7,5 @@ private:
 public:
     OdomNode() : rclcpp::Node("base_odom"){
         wheel_ratations = 0;
-    }
+}
 };
